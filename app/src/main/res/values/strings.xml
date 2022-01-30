@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CountryApp</string>
+    <string name="title_splash_screen">Get More Information About Country</string>
+    <string name="subtitle_splash_screen">You can get detail information about country presented in the form of a list.</string>
+    <string name="text_btn_splashScreen">Get Started</string>
+    <string name="detail_nama">Dicky AL Fattah</string>
+    <string name="nama">Nama</string>
+    <string name="lahir">Lahir</string>
+    <string name="detail_lahir">Jakarta, 01 November 2021</string>
+    <string name="email">Email</string>
+    <string name="detail_email">alfattahdicky2@gmail.com</string>
+    <string name="capital_city">Ibu Kota Negara</string>
+    <string name="national_language">Bahasa Nasional</string>
+    <string name="independence_day">Hari Kemerdekaan</string>
+    <string name="wide_region">Luas Wilayah</string>
+    <string name="description">Deskripsi</string>
+    <string name="country">Country</string>
+    <string name="about_me">About Me</string>
+</resources>

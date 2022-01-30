@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/tv_flag"
+                android:layout_width="150dp"
+                android:layout_height="269dp"
+                android:contentDescription="Profile Dicky"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/profile_dicky" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/tv_flag"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    style="@style/Text.DetailTitle"
+                    android:text="@string/capital_city"/>
+
+                <TextView
+                    android:id="@+id/capital_city"
+                    style="@style/Text.DetailText"
+                    tools:text="DKI Jakarta"/>
+
+                <TextView
+                    style="@style/Text.DetailTitle"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/national_language"/>
+
+                <TextView
+                    android:id="@+id/national_language"
+                    style="@style/Text.DetailText"
+                    tools:text="Indonesia"/>
+
+                <TextView
+                    style="@style/Text.DetailTitle"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/independence_day"/>
+
+                <TextView
+                    android:id="@+id/independence_day"
+                    style="@style/Text.DetailText"
+                    tools:text="17 Agustus"/>
+
+                <TextView
+                    style="@style/Text.DetailTitle"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/wide_region"/>
+
+                <TextView
+                    android:id="@+id/wide_region"
+                    style="@style/Text.DetailText"
+                    tools:text="1.919.440 km2"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp"
+            android:background="@drawable/shadow_desc"
+            android:elevation="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="40dp">
+
+            <TextView
+                style="@style/Text.DetailTitle"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:text="@string/description"/>
+
+            <TextView
+                android:id="@+id/description_flag"
+                style="@style/Text.DetailText"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:lineSpacingExtra="10sp"
+                tools:text="Indonesia adalah negara kepulauan terbesar di dunia. Indonesia memiliki lebih dari 17.000 pulau, di mana hanya sekitar 7.000 pulau yang berpenghuni. Kalimantan, Jawa, Sulawesi, Sumatra dan Papua merupakan pulau utama di Indonesia. Selain itu Indonesia juga memiliki pulau-pulau kecil seperti Bali, Karimunjawa, Gili dan Lombok yang merupakan tujuan wisata lokal maupun internasional. Ibukota negara Indonesia adalah Jakarta, yang terletak di Pulau Jawa. Dilihat dari segi geografis, kepulauan Indonesia terletak antara 5° 54′ 08″ bujur utara hingga 11° 08′ 20″ bujur selatan dan 95°00’38“ sampai 141°01’12“ bujur timur. Beberapa pulau terletak di garis ekuator. Karena itu, siang dan malam memiliki waktu yang hampir sama, yaitu 12 jam. Atas dasar letak geografis yang luas, wilayah Indonesia dibagi menjadi 3 zona waktu yaitu WIB (Waktu Indonesia Barat), WITA (Waktu Indonesia Tengah) dan WIT (Waktu Indonesia Timur). Dari satu pulau ke pulau lainnya dapat terjadi perbedaan waktu hingga 8 jam."/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+    <include layout="@layout/toolbar"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="178dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile_dicky"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                style="@style/Text.About"
+                android:text="@string/nama"/>
+
+            <TextView
+                style="@style/Text.About"
+                android:text="@string/detail_nama"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                style="@style/Text.About"
+                android:text="@string/lahir"/>
+
+            <TextView
+                style="@style/Text.About"
+                android:text="@string/detail_lahir"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                style="@style/Text.About"
+                android:text="@string/email"/>
+
+            <TextView
+                style="@style/Text.About"
+                android:text="@string/detail_email"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>
